@@ -8,10 +8,20 @@
 .text-primary{
 color: #FD6E0A;
 }
+.secondary-bg{
+    background-color: #FFF8F3;
+}
 .dark-2{
     color: #474747;
 }
+.dark-1{
+    color: #181818;
+}
+.dark-3{
+    color: #757575;
+}
 .btn-primary{
+    margin:10px 20px;
     background-color: #FD6E0A;
     border: none;
     font-weight: 700;
@@ -20,17 +30,29 @@ color: #FD6E0A;
     border-radius: 5px;
     font-size: 20px;
 }
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+.text-centre{
+    text-align: center;
+}
 /* header style */
 .header{
     background-image: url(../images/developer.png),
     url(../images/header_bg.png);
     background-repeat: no-repeat;
-    background-position:top left, bottom-right;
+    background-position:top left, bottom right;
 }
 
 /* nav style */
 *{
-    margin: 0;
+    margin:0px;
     padding: 0;
     font-family: Open Sans, sans-serif;
 }
@@ -84,4 +106,63 @@ nav ul{
 }
  .banner-img{
     width: 580px;
+ }
+ /* main styles */
+ main{
+    max-width: 1140px;
+    margin: 0 auto ;
+ }
+ main section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+ }
+ /* about styles */
+ .about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 100px;
+ }
+ .about-items{
+    display: flex;
+    justify-content: space-around;
+ }
+ .item-title{
+    font-size: 16px;
+    color: #181818;
+ }
+ .item-description{
+    font-weight: 700;
+ }
+ .section-title{
+    margin-bottom: 30px;
+ }
+ .section-description{
+    margin-bottom: 30px;
+ }
+ /* skill style */
+ .description{
+    font-size: 16px;
+    color: #757575;
+    margin-bottom: 20px;
+ }
+ .skills-container{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+ }
+ .skill{
+    /* max-width: 250px; */
+    padding:30px ;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+ }
+ .skill-description{
+    font-size: 14px;
+ }
+ .skill img{
+    width: 30px;
+ }
+ .skill h4{
+    margin: 15px 0px;
  }
