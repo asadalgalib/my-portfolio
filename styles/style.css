@@ -1,3 +1,4 @@
+
 /* .open-sans-normal {font-family: Open Sans, sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -60,7 +61,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 100px;
+    margin: 0px 100px;
 }
 .nav-title{
     font-weight: 800;
@@ -117,9 +118,13 @@ nav ul{
     margin-bottom: 100px;
  }
  /* about styles */
+ .bg{
+   background-color: #fff;
+   padding: 10px;
+ }
  .about{
     border-radius: 10px;
-    padding: 130px 150px;
+    padding: 120px 140px;
     text-align: center;
     margin-top: 100px;
  }
@@ -165,4 +170,73 @@ nav ul{
  }
  .skill h4{
     margin: 15px 0px;
+ }
+ /* resume-style */
+ .resume-container{
+    display: flex;
+    gap: 24px;
+ }
+ .resume-column-title{
+   margin-bottom: 20px;
+ }
+ .experience-title{
+   margin: 20px 0px;
+ }
+ .experience-subtitle{
+font-size: 18px;
+color: #757575;
+
+ }
+ .experience-description{
+   color: #757575;
+   margin-bottom: 5px;
+ }
+ .resume-d{
+   margin-top: 50px;
+ }
+ /* footer style */
+ footer{
+   padding: 130px 230px;
+   display: flex;
+   gap: 100px;
+ }
+.footer-column{
+   width: 50%;
+}
+footer input[type='text'],footer input[type='email']{
+height: 50px;
+width: 100%;
+display: block;
+padding: 10px 20px;
+margin-bottom: 20px;
+border: none;
+border-radius: 5px;
+background-color: #fff;
+color: #474747;
+ }
+ footer textarea{
+   height: 70px;
+width: 100%;
+display: block;
+padding: 20px 20px;
+margin-bottom: 20px;
+border: none;
+border-radius: 5px;
+background-color: #fff;
+color: #474747;
+ }
+ .btn-p{
+   margin:10px 0px;
+   background-color: #FD6E0A;
+   border: none;
+   font-weight: 600;
+   color: #fff;
+   padding: 15px 25px;
+   border-radius: 5px;
+   font-size: 18px;
+ }
+ .logo{
+   display: flex;
+   gap: 30px;
+   justify-content: left;
  }
