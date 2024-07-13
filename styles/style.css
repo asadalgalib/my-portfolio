@@ -141,12 +141,14 @@ nav ul{
  }
  .section-title{
     margin-bottom: 30px;
+    text-align: center;
  }
  .section-description{
     margin-bottom: 30px;
  }
  /* skill style */
  .description{
+   padding: 0 20px;
     font-size: 16px;
     color: #757575;
     margin-bottom: 20px;
@@ -173,6 +175,7 @@ nav ul{
  }
  /* resume-style */
  .resume-container{
+   padding: 0 20px;
     display: flex;
     gap: 24px;
  }
@@ -239,4 +242,50 @@ color: #474747;
    display: flex;
    gap: 30px;
    justify-content: left;
+ }
+ .hide{
+   display: none;
+ }
+/* responsive media query */
+@media screen and (max-width:576px) {
+   .skills-container, .resume-container{
+      flex-direction: column;
+   }
+   footer{
+      padding:20px;
+      flex-direction: column-reverse;
+   }
+   .footer-column{
+      width:100%;
+   }
+   footer input[type='text'],footer input[type='email'],footer textarea{
+      width: calc(100% - 40px);
+   }
+   .about{
+      padding: 20px;
+   }
+   .about-items{
+      flex-direction: column;
+      gap: 10px;
+   }
+   .banner{
+      flex-direction: column;
+      margin: 20px;
+   }
+   .banner-img{
+      width: 100%;
+   }
+   .header{
+      background-image: none;
+   }
+   nav {
+      flex-direction: column;
+      gap: 10px;
+      margin: 0 20px;
+      align-items: left;
+   }
+    nav ul{
+      flex-direction: column;
+      gap: 10px;
+    }
  }
